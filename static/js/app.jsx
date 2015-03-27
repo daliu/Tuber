@@ -35,7 +35,6 @@
 
   var sites = [
 
-  // DAVE'S PART
     {url:'https://auth.berkeley.edu/', name:'Casey Stewart: $10', description:'Teaches Economics', tags: ['African American Studies']},
     {url:'http://calcentral.berkeley.edu/', name:'Matthew DAgati: $11',  description:'Teaches Business Institutions.', tags: ['Art']},
     {url:'http://bearfacts.berkeley.edu/', name:'Louis Angelo: $10',  description:'Teaches ', tags: ['Celtic Studies']},
@@ -63,10 +62,8 @@
     {url:'http://ninjacourses.com/', name:'NinjaCourses', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
     {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rate My Professors', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
     {url:'http://bearcheck.herokuapp.com/', name:'BearCheck',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']},
-// End part 1
 
 
-// Start part 2
     {url:'https://auth.berkeley.edu/', name:'Apple Steve: $10', description:'Teaches Economics', tags: ['African American Studies']},
     {url:'http://calcentral.berkeley.edu/', name:'Arther Macquire: $11',  description:'Teaches Business Institutions.', tags: ['Art']},
     {url:'http://bearfacts.berkeley.edu/', name:'Will Smith: $10',  description:'Teaches ', tags: ['Celtic Studies']},
@@ -94,9 +91,20 @@
     {url:'http://ninjacourses.com/', name:'Alan Tong: $25', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
     {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rhianna Smith', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
     {url:'http://bearcheck.herokuapp.com/', name:'Beyonce: $1',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']}
-// end part 2
 
-// start part 3
+    {url:'https://auth.berkeley.edu/', name:'Amy Sanders: $15', description:'Teaches Economics', tags: ['African American Studies']},
+    {url:'http://calcentral.berkeley.edu/', name:'Lakisha Emmanuel: $12',  description:'Teaches Business Institutions.', tags: ['Art']},
+    {url:'http://bearfacts.berkeley.edu/', name:'Naomi Watts: $12',  description:'Teaches ', tags: ['Celtic Studies']},
+    {url:'http://bmail.berkeley.edu/',name:'Steven McQueen: $13', tags: ['Chemistry']},
+    {url:'http://calmail.berkeley.edu/', name:'Natasha Goldestein: $11', description:'Gmail/email for Berkeley.', tags: ['Comparative Literature']},
+    {url:'http://bdrive.berkeley.edu/', name:'Lemony Snicker: $12', description:'Google Drive for Berkeley.', tags: ['Computer Science']},
+    {url:'http://bcal.berkeley.edu/', name:'Roger Timus $12', description:'Google Calendar for Berkeley.', tags: ['East Asian Languages and Cultures']},
+    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Tyrone Seidell: $11', description:'Cal 1 Card.', tags: ['Earth and Planetary Science']},
+    {url:'https://calnet.berkeley.edu/directory/index.pl', name: 'Czarinah Libang: $15', description:'Stalk Search for people', tags: ['English']},
+    {url:'http://ls.berkeley.edu/', name:'Marissa Natura: $16', tags: ['Film']},
+    {url:'http://chemistry.berkeley.edu/', name:'Nathan Hemsworth: $13', tags: ['French']},
+    {url:'http://coe.berkeley.edu/', name:'Yodisha Monswell: $12', tags: ['German']},
+    {url:'http://nature.berkeley.edu/site/index.php', name:'Carey Underhill: $14', tags: ['Integrative Biology']},
     {url:'http://www.haas.berkeley.edu/', name:'Victoria Piaccio: $20', tags: ['Italian']},
     {url:'http://easybib.com/', name:'Stephenie Valintine: $10', description:'Easily make a bibliography in MLA format.', tags: ['Mathematics']},
     {url:'http://oneclass.com/freetextbooks', name:'Sasha Huey: $15', tags: ['Middle Eastern Studies']},
@@ -111,7 +119,6 @@
     {url:'http://ninjacourses.com/', name:'Ray Morgan: $25', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
     {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Courtney Shultz: $10', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
     {url:'http://bearcheck.herokuapp.com/', name:'George Washing Machine: $1',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']}
-    // End of Dave's Part
   ];
 
   sites = _.sortBy(sites, 'name');
