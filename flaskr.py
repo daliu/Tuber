@@ -13,16 +13,17 @@ def front_page():
 
 @app.route('/about')
 def about_page():
-	return render_template('about.html')
+    return render_template('about.html')
 
 @app.route('/search')
 def search_page():
     return render_template('search.html')
 
+# Edit this
 @app.route('/sign_up', methods=["POST"])
 def sign_up():
     print(request.form)
-
+    db_add_person(request.form['name'], request.form['cheep'])
     return render_template('sign_up.html')
 
 @app.route('/user/<username>')
@@ -32,29 +33,32 @@ def show_user_profile(username):
 
 
 
+
 #Data Manipulation
 def db_read_people():
     cur = get_db().cursor();
     cur.execute("SELECT * FROM people")
     return cur.fetchall()
 
-def db_add_people(name, people):
+# Edit this
+def db_add_person(name, people):
     cur = get_db().cursor()
-    # t = str(time.time())
     person = (name, people)
     cur.execute("INSERT INTO people VALUES (?, ?, ?)", person)
     get_db().commit()
 
+# Check this
 @app.route("/")
-def hello():
+def print_people():
     people = db_read_people()
     print(people)
     return render_template('index.html', people=people)
 
+# process people
 @app.route("/api/people", methods=["POST"])
 def receive_people():
     print(request.form)
-    db_add_people(request.form['name'], request.form['people'])
+    db_add_person(request.form['name'], request.form['people'])
     return redirect("/")
 
 
