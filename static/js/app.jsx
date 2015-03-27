@@ -3,34 +3,34 @@
 (function() {
 
   imgMap = {
-    'African American Studies': 'events.jpg',
-    'Art': 'academic.jpg',
-    'Celtic Studies': 'celtic.jpg',
-    'Chemistry': 'celtic.jpg',
-    'Comparative Literature': 'Comparative Literature.jpg',
-    'Computer Science': 'celtic.jpg',
-    'East Asian Languages and Cultures': 'events.jpg',
+    'African American Studies': 'textbooks.jpg',
+    'Art': 'art.jpg',
+    'Celtic Studies': 'textbooks.jpg',
+    'Chemistry': 'jobs.jpg',
+    'Comparative Literature': 'textbooks.jpg',
+    'Computer Science': 'software.png',
+    'East Asian Languages and Cultures': 'dave.jpg',
     'Earth and Planetary Science': 'events.jpg',
     'English': 'classes.png',
-    'Film': 'free.png',
-    'French': 'food.png',
-    'German': 'events.jpg',
-    'Integrative Biology': 'bio.jpg',
-    'Italian': 'software.png',
+    'Film': 'housing.png',
+    'French': 'textbooks.jpg',
+    'German': 'textbooks.jpg',
+    'Integrative Biology': 'food.png',
+    'Italian': 'textbooks.jpg',
     'Mathematics': 'software.png',
     'Middle Eastern Studies': 'software.png',
-    'Molecular and Cell Biology': 'bio.jpg',
-    'Music': 'fun.png',
+    'Molecular and Cell Biology': 'food.png',
+    'Music': 'housing.jpg',
     'Near Eastern Studies': 'general.png',
-    'Peace and Conflict Studies': 'academic.jpg',
+    'Peace and Conflict Studies': 'food.png',
     'Philosophy': 'academic.jpg',
     'Physics': 'academic.jpg',
     'Public Health': 'academic.jpg',
     'Rhetoric': 'housing.png',
     'Scandinavian': 'jobs.jpg',
-    'Slavic Languages and Literatures': 'classes.png',
+    'Slavic Languages and Literatures': 'jobs.jpg',
     'South and Southeast Asian Studies': 'miscellaneous.jpg',
-    'Statistics': 'jobs.jpg',
+    'Statistics': 'advice.jpg',
   };
 
   var sites = [
@@ -118,8 +118,7 @@
     {url:'http://ninjacourses.com/', name:'NinjaCourses', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
     {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rate My Professors', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
     {url:'http://bearcheck.herokuapp.com/', name:'BearCheck',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']}
-
-    
+     
     {url:'https://auth.berkeley.edu/', name:'Casey Stewart; $10', description:'Teaches Economics', tags: ['African American Studies']},
     {url:'http://calcentral.berkeley.edu/', name:'Matthew DAgati; $11',  description:'Teaches Business Institutions.', tags: ['Art']},
     {url:'http://bearfacts.berkeley.edu/', name:'Louis Angelo; $10',  description:'Teaches ', tags: ['Celtic Studies']},
