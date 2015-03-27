@@ -27,41 +27,41 @@
 
   var sites = [
 
-    {url:'https://auth.berkeley.edu/', name:'CalNet Authentication System', description:'AKA CalNet Login - login to Berkeley services.', tags: ['General']},
+    {url:'https://auth.berkeley.edu/', name:'Casey Stewart', description:'Teaches Economics', tags: ['Casey', 'Stewart', 'Economics', 'Casey Stewart']},
 
-    {url:'http://calcentral.berkeley.edu/', name:'CalCentral',  description:'Currently in the works by the university staff, CalCentral is a portal to connect BearFacts, bSpace, Telebears, etc. all into ONE easy-to-use site.', tags: ['General']},
+    {url:'http://calcentral.berkeley.edu/', name:'Matthew DAgati',  description:'Teaches Business Institutions.', tags: ['Matthew', 'DAgati', 'Business', 'Institutions', 'Matthew DAgati']},
 
-    {url:'http://bearfacts.berkeley.edu/', name:'Bearfacts',  description:'Telebears appointments, CARS, registration, etc.', tags: ['General']},
+    {url:'http://bearfacts.berkeley.edu/', name:'Louis Angelo',  description:'Teaches ', tags: ['Louis', 'Angelo', 'Louis Angelo']},
 
-    {url:'http://bmail.berkeley.edu/',name:'bMail', tags: ['General']},
+    {url:'http://bmail.berkeley.edu/',name:'Patrick Holmes', tags: ['Patrick', 'Holmes', 'Patrick Holmes']},
 
-    {url:'http://calmail.berkeley.edu/', name:'CalMail', description:'Gmail/email for Berkeley.', tags: ['General']},
+    {url:'http://calmail.berkeley.edu/', name:'Omar Ali', description:'Gmail/email for Berkeley.', tags: ['Omar', 'Ali', 'Omar Ali']},
 
-    {url:'http://bdrive.berkeley.edu/', name:'bDrive', description:'Google Drive for Berkeley.', tags: ['General']},
+    {url:'http://bdrive.berkeley.edu/', name:'Sarika Pawar', description:'Google Drive for Berkeley.', tags: ['Sarika', 'Pawar', 'Sarika Pawar']},
 
-    {url:'http://bcal.berkeley.edu/', name:'bCal', description:'Google Calendar for Berkeley.', tags: ['General']},
+    {url:'http://bcal.berkeley.edu/', name:'Omar Shahid', description:'Google Calendar for Berkeley.', tags: ['Omar', 'Shahid', 'Omar Shahid']},
 
-    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Cal 1 Card', description:'Cal 1 Card is your student ID/debit card/bus pass.', tags: ['General']},
+    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Matthew Hsu', description:'Cal 1 Card.', tags: ['General', 'Matthew', 'Hsu'. 'Matthew Hsu']},
 
-    {url:'https://calnet.berkeley.edu/directory/index.pl', name:'Directory', description:'Stalk Search for people at Berkeley. Colleges of Berkeley', tags: ['General']},
+    {url:'https://calnet.berkeley.edu/directory/index.pl', name: 'Czarinah Libang', description:'Stalk Search for people', tags: ['General', 'Czarinah', 'Libang', 'Czarinah Libang']},
 
-    {url:'http://ls.berkeley.edu/', name:'Letters and Science (L&S)', tags: ['General']},
+    {url:'http://ls.berkeley.edu/', name:'Lekha Reddy', tags: ['General', 'Lekha', 'Reddy', 'Lekha Reddy']},
 
-    {url:'http://chemistry.berkeley.edu/', name:'College of Chemistry (CoC)', tags: ['General']},
+    {url:'http://chemistry.berkeley.edu/', name:'Lauren Kelly', tags: ['General', 'Lauren', 'Kelly', 'Lauren Kelly']},
 
-    {url:'http://coe.berkeley.edu/', name:'College of Engineering (CoE)', tags: ['General']},
+    {url:'http://coe.berkeley.edu/', name:'Derek Qiu', tags: ['General'. 'Derek', 'Qiu', 'Derek Qiu']},
 
-    {url:'http://nature.berkeley.edu/site/index.php', name:'College of Natural Resources (CNR)', tags: ['General']},
+    {url:'http://nature.berkeley.edu/site/index.php', name:'Sarah Lin', tags: ['General', 'Sarah', 'Lin', 'Sarah Lin']},
 
-    {url:'http://www.haas.berkeley.edu/', name:'Haas School of Business', tags: ['General']},
+    {url:'http://www.haas.berkeley.edu/', name:'Dylan Staats', tags: ['General'. 'Dylan', 'Staats', 'Dylan Staats']},
 
-    {url:'http://bspace.berkeley.edu/', name:'bSpace', tags: ['Academics']},
+    {url:'http://bspace.berkeley.edu/', name:'Rohit Ramachandran', tags: ['Rohit', 'Ramachandran', 'Rohit Ramachandran']},
 
-    {url:'https://www.facebook.com/groups/176230269085268/', name:'STUDY TIPS and OTHER USEFUL THINGS', description:'A place to find study tips and general tips for Berkeley classes', tags: 'Homework, calendars, files, etc. for all of your classes. Facebook Group', tags: ['Academics']},
+    {url:'https://www.facebook.com/groups/176230269085268/', name:'Noah Harmatz', description:'A place to find study tips and general tips for Berkeley classes', tags: 'Homework', tags: ['Noah', 'Harmatz', 'Noah Harmatz']},
 
-    {url:'https://www.facebook.com/groups/groupsatberkeley/', name:'Find your class years and majors Facebook group', tags: ['Homework', 'Calendar', 'Files']},
+    {url:'https://www.facebook.com/groups/groupsatberkeley/', name:'Dennis Cheng', tags: ['Dennis', 'Cheng', 'Dennis Cheng']},
 
-    {url:'http://academicservices.berkeley.edu/advising/gpa/', name:'GPA Calculator', description:'GPA calculator from the ASC', tags: ['Homework', 'Calendar', 'Files']},
+    {url:'http://academicservices.berkeley.edu/advising/gpa/', name:'Miana Lew', description:'GPA', tags: ['Miana', 'Lew', 'Miana Lew']},
 
     {url:'https://www.refworks.com/refworks2/default.aspx?r=authentication::init&groupcode=ucberkeleybears', name:'RefWorks', description:'Organize and cite the research papers used in a project/paper in any format.', tags: ['Homework', 'Calendar', 'Files']},
 
