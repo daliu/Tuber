@@ -1,0 +1,57 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.colored-box {
+    width: 89%;
+    height: 40%;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+    background-color: #5677fc;
+}
+
+.caption {
+    padding: 0 3rem 3rem 3rem !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #eee !important;
+}
+
+.thumbnail img {
+    width: 100%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+/*
+@-webkit-keyframes transform { from{ transform: scale(1,1); } to{ transform: scale(1.1,1.1); } }
+
+.thumbnail:hover {
+    -webkit-animation: transform 3s ease-out; 
+}*/
+
+.search-bar {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+footer {
+    margin: 50px 0;
+}
