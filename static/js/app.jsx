@@ -69,7 +69,7 @@
     {url:'http://calmail.berkeley.edu/', name:'Natasha Goldestein: $11', description:'Gmail/email for Berkeley.', tags: ['Comparative Literature']},
     {url:'http://bdrive.berkeley.edu/', name:'Lemony Snicker: $12', description:'Google Drive for Berkeley.', tags: ['Computer Science']},
     {url:'http://bcal.berkeley.edu/', name:'Roger Timus $12', description:'Google Calendar for Berkeley.', tags: ['East Asian Languages and Cultures']},
-    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Tyrone Seidell: ', description:'Cal 1 Card.', tags: ['Earth and Planetary Science']},
+    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Tyrone Seidell: $11', description:'Cal 1 Card.', tags: ['Earth and Planetary Science']},
     {url:'https://calnet.berkeley.edu/directory/index.pl', name: 'Czarinah Libang: $15', description:'Stalk Search for people', tags: ['English']},
     {url:'http://ls.berkeley.edu/', name:'Marissa Natura: $16', tags: ['Film']},
     {url:'http://chemistry.berkeley.edu/', name:'Nathan Hemsworth: $13', tags: ['French']},
