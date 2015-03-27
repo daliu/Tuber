@@ -19,44 +19,9 @@ def about_page():
 def search_page():
     return render_template('search.html')
 
-@app.route('/sign_up', methods=["POST"])
+@app.route('/sign_up')
 def sign_up():
-    print(request.form)
-
     return render_template('sign_up.html')
-
-@app.route('/user/<username>')
-def show_user_profile(username):
-    # show the user profile for that user
-    return 'User %s' % username
-
-
-
-#Data Manipulation
-def db_read_people():
-    cur = get_db().cursor();
-    cur.execute("SELECT * FROM people")
-    return cur.fetchall()
-
-def db_add_people(name, people):
-    cur = get_db().cursor()
-    # t = str(time.time())
-    person = (name, people)
-    cur.execute("INSERT INTO people VALUES (?, ?, ?)", person)
-    get_db().commit()
-
-@app.route("/")
-def hello():
-    people = db_read_people()
-    print(people)
-    return render_template('index.html', people=people)
-
-@app.route("/api/people", methods=["POST"])
-def receive_people():
-    print(request.form)
-    db_add_people(request.form['name'], request.form['people'])
-    return redirect("/")
-
 
 # configuration
 DATABASE = '/db/flaskr.db'
