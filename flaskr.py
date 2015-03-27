@@ -7,16 +7,16 @@ from contextlib import closing
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+@app.route('/index')
+def front_page():
     return render_template('index.html')
 
-@app.route('/hello/')
-@app.route('/hello/<name>')
-def hello(name=None):
-    return render_template('hello.html', name=name)
+@app.route('/about')
+def about_page():
+		return render_template('about.html')
 
 # configuration
-DATABASE = '/tmp/flaskr.db'
+DATABASE = '/db/flaskr.db'
 DEBUG = True
 SECRET_KEY = 'secret'
 USERNAME = 'admin'
