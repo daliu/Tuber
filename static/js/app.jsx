@@ -35,6 +35,83 @@
 
   var sites = [
 
+  // DAVE'S PART
+    {url:'https://auth.berkeley.edu/', name:'Casey Stewart: $10', description:'Teaches Economics', tags: ['African American Studies']},
+    {url:'http://calcentral.berkeley.edu/', name:'Matthew DAgati: $11',  description:'Teaches Business Institutions.', tags: ['Art']},
+    {url:'http://bearfacts.berkeley.edu/', name:'Louis Angelo: $10',  description:'Teaches ', tags: ['Celtic Studies']},
+    {url:'http://bmail.berkeley.edu/',name:'Patrick Holmes: $12', tags: ['Chemistry']},
+    {url:'http://calmail.berkeley.edu/', name:'Omar Ali: $11', description:'Gmail/email for Berkeley.', tags: ['Comparative Literature']},
+    {url:'http://bdrive.berkeley.edu/', name:'Sarika Pawar: $12', description:'Google Drive for Berkeley.', tags: ['Computer Science']},
+    {url:'http://bcal.berkeley.edu/', name:'Omar Shahid: $15', description:'Google Calendar for Berkeley.', tags: ['East Asian Languages and Cultures']},
+    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Matthew Hsu', description:'Cal 1 Card.', tags: ['Earth and Planetary Science']},
+    {url:'https://calnet.berkeley.edu/directory/index.pl', name: 'Czarinah Libang', description:'Stalk Search for people', tags: ['English']},
+    {url:'http://ls.berkeley.edu/', name:'Lekha Reddy', tags: ['Film']},
+    {url:'http://chemistry.berkeley.edu/', name:'Lauren Kelly', tags: ['French']},
+    {url:'http://coe.berkeley.edu/', name:'Derek Qiu', tags: ['German']},
+    {url:'http://nature.berkeley.edu/site/index.php', name:'Sarah Lin', tags: ['Integrative Biology']},
+    {url:'http://www.haas.berkeley.edu/', name:'Dylan Staats', tags: ['Italian']},
+    {url:'http://easybib.com/', name:'Andrew Millman', description:'Easily make a bibliography in MLA format.', tags: ['Mathematics']},
+    {url:'http://oneclass.com/freetextbooks', name:'Penny Xu', tags: ['Middle Eastern Studies']},
+    {url:'http://beta.classmint.com/', name:'Classmint',description:'An interactive browser-ba.', tags: ['Molecular and Cell Biology']},
+    {url:'http://s.tudy.it/twkpdup', name:'StudyBlue',description:'Make or all of your classes. (Get a free month of Pro with the url above.)', tags: ['Music']},
+    {url:'http://uguru.me/', name:'Uguru.me', description:'Tutor someone in a Berkeley class or a skill to earn some money', tags: ['Near Eastern Studies']},
+    {url:'http://www.lib.berkeley.edu/Catalogs/guide.html', name:'Library Catalog', tags: ['Peace and Conflict Studies']},
+    {url:'http://www.lib.berkeley.edu/Help/connecting_off_campus.html', name:'Library Proxy/VPN', tags: ['Philosophy']},
+    {url:'http://telebears.berkeley.edu/', name:'Telebears', descriptions:'SIGN UP FOR YOUR CLASSES HERE.', tags: ['Physics']},
+    {url:'http://schedule.berkeley.edu/', name:'Schedule of Classes', descriptions:'All the classes and their times.', tags: ['Public Health']},
+    {url:'http://decal.org/courses', name:'DeCals', descriptions:'Student-run 1-2 unit P/NP classes.', tags: ['Rhetoric']},
+    {url:'http://ninjacourses.com/', name:'NinjaCourses', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
+    {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rate My Professors', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
+    {url:'http://bearcheck.herokuapp.com/', name:'BearCheck',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']},
+// End part 1
+
+
+// Start part 2
+    {url:'https://auth.berkeley.edu/', name:'Apple Steve: $10', description:'Teaches Economics', tags: ['African American Studies']},
+    {url:'http://calcentral.berkeley.edu/', name:'Arther Macquire: $11',  description:'Teaches Business Institutions.', tags: ['Art']},
+    {url:'http://bearfacts.berkeley.edu/', name:'Will Smith: $10',  description:'Teaches ', tags: ['Celtic Studies']},
+    {url:'http://bmail.berkeley.edu/',name:'Darth Vader: $12', tags: ['Chemistry']},
+    {url:'http://calmail.berkeley.edu/', name:'George Monkey: $11', description:'Gmail/email for Berkeley.', tags: ['Comparative Literature']},
+    {url:'http://bdrive.berkeley.edu/', name:'Muhammad Dankaki: $12', description:'Google Drive for Berkeley.', tags: ['Computer Science']},
+    {url:'http://bcal.berkeley.edu/', name:'Naruto Uzamaki: $10', description:'Google Calendar for Berkeley.', tags: ['East Asian Languages and Cultures']},
+    {url:'http://services.housing.berkeley.edu/c1c/static/index.htm', name:'Thomas Jefferson: $.02', description:'Cal 1 Card.', tags: ['Earth and Planetary Science']},
+    {url:'https://calnet.berkeley.edu/directory/index.pl', name: 'Greg Scottman: $4', description:'Stalk Search for people', tags: ['English']},
+    {url:'http://ls.berkeley.edu/', name:'David Letterman: $1', tags: ['Film']},
+    {url:'http://chemistry.berkeley.edu/', name:'Jeffery Chen: $20', tags: ['French']},
+    {url:'http://coe.berkeley.edu/', name:'Derek Jeter: $20', tags: ['German']},
+    {url:'http://nature.berkeley.edu/site/index.php', name:'Jack Lin: $10', tags: ['Integrative Biology']},
+    {url:'http://www.haas.berkeley.edu/', name:'Dylan Mizzazi: $20', tags: ['Italian']},
+    {url:'http://easybib.com/', name:'Georgia Sunnyweather: $10', description:'Easily make a bibliography in MLA format.', tags: ['Mathematics']},
+    {url:'http://oneclass.com/freetextbooks', name:'Jesse Stephenson: $15', tags: ['Middle Eastern Studies']},
+    {url:'http://beta.classmint.com/', name:'Paul Jackson: $20',description:'An interactive browser-ba.', tags: ['Molecular and Cell Biology']},
+    {url:'http://s.tudy.it/twkpdup', name:'Sam Leavanny: $17',description:'Make or all of your classes. (Get a free month of Pro with the url above.)', tags: ['Music']},
+    {url:'http://uguru.me/', name:'Jessica Mah', description:'Tutor someone in a Berkeley class or a skill to earn some money', tags: ['Near Eastern Studies']},
+    {url:'http://www.lib.berkeley.edu/Catalogs/guide.html', name:'Ivy Nguyen: $10', tags: ['Peace and Conflict Studies']},
+    {url:'http://www.lib.berkeley.edu/Help/connecting_off_campus.html', name:'Claudia Wong: $10', tags: ['Philosophy']},
+    {url:'http://telebears.berkeley.edu/', name:'Victor Ngo: $13', descriptions:'SIGN UP FOR YOUR CLASSES HERE.', tags: ['Physics']},
+    {url:'http://schedule.berkeley.edu/', name:'Joseph Chang: $25', descriptions:'All the classes and their times.', tags: ['Public Health']},
+    {url:'http://decal.org/courses', name:'Ted Armstrong: $14', descriptions:'Student-run 1-2 unit P/NP classes.', tags: ['Rhetoric']},
+    {url:'http://ninjacourses.com/', name:'Alan Tong: $25', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
+    {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rhianna Smith', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
+    {url:'http://bearcheck.herokuapp.com/', name:'Beyonce: $1',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']}
+// end part 2
+
+// start part 3
+    {url:'http://www.haas.berkeley.edu/', name:'Victoria Piaccio: $20', tags: ['Italian']},
+    {url:'http://easybib.com/', name:'Stephenie Valintine: $10', description:'Easily make a bibliography in MLA format.', tags: ['Mathematics']},
+    {url:'http://oneclass.com/freetextbooks', name:'Sasha Huey: $15', tags: ['Middle Eastern Studies']},
+    {url:'http://beta.classmint.com/', name:'Magaret Thatcher: $20',description:'An interactive browser-ba.', tags: ['Molecular and Cell Biology']},
+    {url:'http://s.tudy.it/twkpdup', name:'Christina Parry: $17',description:'Make or all of your classes. (Get a free month of Pro with the url above.)', tags: ['Music']},
+    {url:'http://uguru.me/', name:'Lindsey Conlan', description:'Tutor someone in a Berkeley class or a skill to earn some money', tags: ['Near Eastern Studies']},
+    {url:'http://www.lib.berkeley.edu/Catalogs/guide.html', name:'Kat Lin: $10', tags: ['Peace and Conflict Studies']},
+    {url:'http://www.lib.berkeley.edu/Help/connecting_off_campus.html', name:'Heather Chang: $10', tags: ['Philosophy']},
+    {url:'http://telebears.berkeley.edu/', name:'Carolyn Guazzi: $13', descriptions:'SIGN UP FOR YOUR CLASSES HERE.', tags: ['Physics']},
+    {url:'http://schedule.berkeley.edu/', name:'Joe Marchellis: $25', descriptions:'All the classes and their times.', tags: ['Public Health']},
+    {url:'http://decal.org/courses', name:'Thomas Rossi: $14', descriptions:'Student-run 1-2 unit P/NP classes.', tags: ['Rhetoric']},
+    {url:'http://ninjacourses.com/', name:'Ray Morgan: $25', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Scandinavian']},
+    {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Courtney Shultz: $10', descriptions:'Ratings for professors.', tags: ['Slavid Languages and Literatures']},
+    {url:'http://bearcheck.herokuapp.com/', name:'George Washing Machine: $1',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Statistics']}
+    // End of Dave's Part
   ];
 
   sites = _.sortBy(sites, 'name');
