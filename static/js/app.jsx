@@ -3,26 +3,34 @@
 (function() {
 
   imgMap = {
-    'Academics': 'academic.jpg',
-    'Advice': 'advice.jpg',
-    'Calendar': 'events.jpg',
-    'Classes': 'classes.png',
-    'Clubs': 'free.png',
-    'Dining': 'food.png',
-    'Events': 'events.jpg',
-    'Files': 'software.png',
-    'Fun': 'fun.png',
-    'General': 'general.png',
-    'Homework': 'academic.jpg',
-    'Housing': 'housing.png',
-    'Jobs': 'jobs.jpg',
-    'Library': 'classes.png',
-    'Miscellaneous': 'miscellaneous.jpg',
-    'Money': 'money.png',
-    'Software': 'software.png',
-    'Tools': 'software.png',
-    'Trading': 'trading.jpg',
-    'Transportation': 'transportation.png'
+    'African American Studies': 'events.jpg',
+    'Art': 'academic.jpg',
+    'Celtic Studies': 'celtic.jpg',
+    'Chemistry': 'celtic.jpg',
+    'Comparative Literature': 'Comparative Literature.jpg',
+    'Computer Science': 'celtic.jpg',
+    'East Asian Languages and Cultures': 'events.jpg',
+    'Earth and Planetary Science': 'events.jpg',
+    'English': 'classes.png',
+    'Film': 'free.png',
+    'French': 'food.png',
+    'German': 'events.jpg',
+    'Integrative Biology': 'bio.jpg',
+    'Italian': 'software.png',
+    'Mathematics': 'software.png',
+    'Middle Eastern Studies': 'software.png',
+    'Molecular and Cell Biology': 'bio.jpg',
+    'Music': 'fun.png',
+    'Near Eastern Studies': 'general.png',
+    'Peace and Conflict Studies': 'academic.jpg',
+    'Philosophy': 'academic.jpg',
+    'Physics': 'academic.jpg',
+    'Public Health': 'academic.jpg',
+    'Rhetoric': 'housing.png',
+    'Scandinavian': 'jobs.jpg',
+    'Slavic Languages and Literatures': 'classes.png',
+    'South and Southeast Asian Studies': 'miscellaneous.jpg',
+    'Statistics': 'jobs.jpg',
   };
 
   var sites = [
@@ -55,13 +63,13 @@
 
     {url:'http://www.haas.berkeley.edu/', name:'Haas School of Business', tags: ['General']},
 
-    {url:'http://bspace.berkeley.edu/', name:'bSpace', tags: ['Academics']},
+    {url:'http://bspace.berkeley.edu/', name:'bSpace', tags: ['Art']},
 
-    {url:'https://www.facebook.com/groups/176230269085268/', name:'STUDY TIPS and OTHER USEFUL THINGS', description:'A place to find study tips and general tips for Berkeley classes', tags: 'Homework, calendars, files, etc. for all of your classes. Facebook Group', tags: ['Academics']},
+    {url:'https://www.facebook.com/groups/176230269085268/', name:'STUDY TIPS and OTHER USEFUL THINGS', description:'A place to find study tips and general tips for Berkeley classes', tags: 'Homework, calendars, files, etc. for all of your classes. Facebook Group', tags: ['Art']},
 
     {url:'https://www.facebook.com/groups/groupsatberkeley/', name:'Find your class years and majors Facebook group', tags: ['Homework', 'Calendar', 'Files']},
 
-    {url:'http://academicservices.berkeley.edu/advising/gpa/', name:'GPA Calculator', description:'GPA calculator from the ASC', tags: ['Homework', 'Calendar', 'Files']},
+    {url:'http://Artervices.berkeley.edu/advising/gpa/', name:'GPA Calculator', description:'GPA calculator from the ASC', tags: ['Homework', 'Calendar', 'Files']},
 
     {url:'https://www.refworks.com/refworks2/default.aspx?r=authentication::init&groupcode=ucberkeleybears', name:'RefWorks', description:'Organize and cite the research papers used in a project/paper in any format.', tags: ['Homework', 'Calendar', 'Files']},
 
@@ -69,53 +77,53 @@
 
     {url:'https://tbp.berkeley.edu/students/exams/', name:'Tau Beta Pi Test Bank',  description:'Old exams from pretty much all STEM classes, both upper- and lower-div. SUPER helpful.', tags: ['Homework', 'Calendar', 'Files']},
 
-    {url:'https://hkn.eecs.berkeley.edu/exams/', name:'HKNs Test Bank', description:'Old exams from all EE & CS classes, both upper- and lower-div. HKNs site also has course guides (descriptions, reviews, etc.) for most EE & CS classes.', tags: ['Academics']},
+    {url:'https://hkn.eecs.berkeley.edu/exams/', name:'HKNs Test Bank', description:'Old exams from all EE & CS classes, both upper- and lower-div. HKNs site also has course guides (descriptions, reviews, etc.) for most EE & CS classes.', tags: ['Art']},
 
-    {url:'http://thequad.com/share/75tqFD', name:'Quad', description:'Quad inputs all of your assignments/projects using your classs syllabus to create a calendar with due dates. Currently only for Berkeley students.', tags: ['Academics']},
+    {url:'http://thequad.com/share/75tqFD', name:'Quad', description:'Quad inputs all of your assignments/projects using your classs syllabus to create a calendar with due dates. Currently only for Berkeley students.', tags: ['Art']},
 
-    {url:'http://oneclass.com/a/146154', name:'OneClass', description:'Organize your notes, share class notes with others, and get recommended notes/videos for your class. Also, when you join, youre entered into a', tags: ['Academics']},
+    {url:'http://oneclass.com/a/146154', name:'OneClass', description:'Organize your notes, share class notes with others, and get recommended notes/videos for your class. Also, when you join, youre entered into a', tags: ['Art']},
 
-    {url:'http://oneclass.com/scholarships', name:'scholarship', tags: ['Academics']},
+    {url:'http://oneclass.com/scholarships', name:'scholarship', tags: ['Art']},
 
-    {url:'http://oneclass.com/freetextbooks', name:'free textbooks', tags: ['Academics']},
+    {url:'http://oneclass.com/freetextbooks', name:'free textbooks', tags: ['Art']},
 
-    {url:'http://beta.classmint.com/', name:'Classmint',description:'An interactive browser-based note-taking tool with text and image annotations.', tags: ['Academics']},
+    {url:'http://beta.classmint.com/', name:'Classmint',description:'An interactive browser-based note-taking tool with text and image annotations.', tags: ['Art']},
 
-    {url:'http://s.tudy.it/twkpdup', name:'StudyBlue',description:'Make and share flashcards accessible by computer and smartphone for all of your classes. (Get a free month of Pro with the url above.)', tags: ['Academics']},
+    {url:'http://s.tudy.it/twkpdup', name:'StudyBlue',description:'Make and share flashcards accessible by computer and smartphone for all of your classes. (Get a free month of Pro with the url above.)', tags: ['Art']},
 
-    {url:'http://uguru.me/', name:'Uguru.me', description:'Tutor someone in a Berkeley class or a skill to earn some money', tags: ['Academics']},
+    {url:'http://uguru.me/', name:'Uguru.me', description:'Tutor someone in a Berkeley class or a skill to earn some money', tags: ['Art']},
 
-    {url:'http://www.lib.berkeley.edu/Catalogs/guide.html', name:'Library Catalog', tags: ['Academics', 'Library']},
+    {url:'http://www.lib.berkeley.edu/Catalogs/guide.html', name:'Library Catalog', tags: ['Art', 'Library']},
 
-    {url:'http://www.lib.berkeley.edu/hours', name:'Library Hours', tags: ['Academics', 'Library']},
+    {url:'http://www.lib.berkeley.edu/hours', name:'Library Hours', tags: ['Art', 'Library']},
 
-    {url:'http://www.lib.berkeley.edu/Help/connecting_off_campus.html', name:'Library Proxy/VPN', tags: ['Academics', 'Library']},
+    {url:'http://www.lib.berkeley.edu/Help/connecting_off_campus.html', name:'Library Proxy/VPN', tags: ['Art', 'Library']},
 
-    {url:'http://telebears.berkeley.edu/', name:'Telebears', descriptions:'SIGN UP FOR YOUR CLASSES HERE.', tags: ['Academics', 'Classes']},
+    {url:'http://telebears.berkeley.edu/', name:'Telebears', descriptions:'SIGN UP FOR YOUR CLASSES HERE.', tags: ['Art', 'Classes']},
 
-    {url:'http://schedule.berkeley.edu/', name:'Schedule of Classes', descriptions:'All the classes and their times.', tags: ['Academics', 'Classes']},
+    {url:'http://schedule.berkeley.edu/', name:'Schedule of Classes', descriptions:'All the classes and their times.', tags: ['Art', 'Classes']},
 
-    {url:'http://userscripts.org/scripts/show/105611', name:'UC Berkeley Schedule Enhancer (UCBSE)',  descriptions:'Reorganizes and decorates the Berkeley Schedule of Classes and provides helpful urls.', tags: ['Academics', 'Classes']},
+    {url:'http://userscripts.org/scripts/show/105611', name:'UC Berkeley Schedule Enhancer (UCBSE)',  descriptions:'Reorganizes and decorates the Berkeley Schedule of Classes and provides helpful urls.', tags: ['Art', 'Classes']},
 
-    {url:'http://decal.org/courses', name:'DeCals', descriptions:'Student-run 1-2 unit P/NP classes.', tags: ['Academics', 'Classes']},
+    {url:'http://decal.org/courses', name:'DeCals', descriptions:'Student-run 1-2 unit P/NP classes.', tags: ['Art', 'Classes']},
 
-    {url:'http://ninjacourses.com/', name:'NinjaCourses', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Academics', 'Classes']},
+    {url:'http://ninjacourses.com/', name:'NinjaCourses', descriptions:'Helps you plan out your schedule, see reviews of classes & professors', tags: ['Art', 'Classes']},
 
-    {url:'https://schedulebuilder.berkeley.edu/', name:'ScheduleBuilder',  descriptions:'Like NinjaCourses, but includes grade distributions, but no reviews.}', tags: ['Academics', 'Classes']},
+    {url:'https://schedulebuilder.berkeley.edu/', name:'ScheduleBuilder',  descriptions:'Like NinjaCourses, but includes grade distributions, but no reviews.}', tags: ['Art', 'Classes']},
 
-    {url:'https://www.facebook.com/groups/hackberkeley/permaurl/653113241387937/', name:'NinjaCommuters',  descriptions:'Script that overlays traveling time between classes based on Google Mapss predictions to pick your best schedule.', tags: ['Academics', 'Classes']},
+    {url:'https://www.facebook.com/groups/hackberkeley/permaurl/653113241387937/', name:'NinjaCommuters',  descriptions:'Script that overlays traveling time between classes based on Google Mapss predictions to pick your best schedule.', tags: ['Art', 'Classes']},
 
-    {url:'http://telebearsoracle.com/', name:'Telebears Oracle', descriptions:'It lets you see how classes fill up over time in the current and last semesters. Fantastic for seeing what classes to Phase I or Phase II.', tags: ['Academics', 'Classes']},
+    {url:'http://telebearsoracle.com/', name:'Telebears Oracle', descriptions:'It lets you see how classes fill up over time in the current and last semesters. Fantastic for seeing what classes to Phase I or Phase II.', tags: ['Art', 'Classes']},
 
-    {url:'http://berkeleytime.com/', name:'BerkeleyTime',  descriptions:'Lets you filter what kind of classes you want - by requirement, number of units, grade average, etc. Also has a campus map, grade distributions, and enrollment charts.', tags: ['Academics', 'Classes']},
+    {url:'http://berkeleytime.com/', name:'BerkeleyTime',  descriptions:'Lets you filter what kind of classes you want - by requirement, number of units, grade average, etc. Also has a campus map, grade distributions, and enrollment charts.', tags: ['Art', 'Classes']},
 
-    {url:'http://courserank.com/', name:'CourseRank',  descriptions:'Like BerkeleyTime, but also has a 4-year planner, official and unofficial grade distributions, class reviews, and other cool things. ', tags: ['Academics', 'Classes']},
+    {url:'http://courserank.com/', name:'CourseRank',  descriptions:'Like BerkeleyTime, but also has a 4-year planner, official and unofficial grade distributions, class reviews, and other cool things. ', tags: ['Art', 'Classes']},
 
-    {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rate My Professors', descriptions:'Ratings for professors.', tags: ['Academics', 'Classes']},
+    {url:'http://www.ratemyprofessors.com/SelectTeacher.jsp?sid=1072', name:'Rate My Professors', descriptions:'Ratings for professors.', tags: ['Art', 'Classes']},
 
-    {url:'http://bearcheck.herokuapp.com/', name:'BearCheck',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Academics', 'Classes']},
+    {url:'http://bearcheck.herokuapp.com/', name:'BearCheck',  descriptions:'Get notified when a seat opens up in a class you want!', tags: ['Art', 'Classes']},
 
-    {url:'https://kloudless.com/cal/', name:'Kloudless',  descriptions:'Does the same thing as BearCheck - notifies you of an open space in a class.', tags: ['Academics', 'Classes']},
+    {url:'https://kloudless.com/cal/', name:'Kloudless',  descriptions:'Does the same thing as BearCheck - notifies you of an open space in a class.', tags: ['Art', 'Classes']},
 
     {url:'http://roomres.fuqu.jp/', name:'Room Reservation System', description:'Have you ever tried to reserve rooms for events in Berkeley? The results often turn out something like this. Refresh it! ', tags: ['Fun']},
 
@@ -223,17 +231,17 @@
 
     {url:'http://www.socialplex.com/', name:'Socialplex',  description:'A site that lists events at Berkeley, it seems like... not yet open. ', tags: ['Events']},
 
-    {url:'http://calask.com/', name:'CalAsk',  description:'Have any questions about Berkeley? Find the answer here!', tags: ['Advice']},
+    {url:'http://calask.com/', name:'CalAsk',  description:'Have any questions about Berkeley? Find the answer here!', tags: ['Comparative Literature']},
 
-    {url:'http://tinyurl.com/berkeleyfaq', name:'Berkeley FAQ',  description:'The Google Docs predecessor version of CalAsk.', tags: ['Advice']},
+    {url:'http://tinyurl.com/berkeleyfaq', name:'Berkeley FAQ',  description:'The Google Docs predecessor version of CalAsk.', tags: ['Comparative Literature']},
 
-    {url:'http://bearablygolden.tumblr.com/', name:'Bearably Golden',  description:'One of my friends Berkeley Tumblr filled with advice (and pictures)', tags: ['Advice']},
+    {url:'http://bearablygolden.tumblr.com/', name:'Bearably Golden',  description:'One of my friends Berkeley Tumblr filled with Comparative Literature (and pictures)', tags: ['Comparative Literature']},
 
-    {url:'http://blog.admissions.berkeley.edu/', name:'Golden Bear Blog',  description:'Blog written for incoming Berkeley students by the Office of Undergraduate Admissions. ', tags: ['Advice']},
+    {url:'http://blog.admissions.berkeley.edu/', name:'Golden Bear Blog',  description:'Blog written for incoming Berkeley students by the Office of Undergraduate Admissions. ', tags: ['Comparative Literature']},
 
-    {url:'http://www.jamesmaa.com/2012/12/02/james-maas-productivity-hacking-guide/', name:'Productivity Hacking Guide',  description:'The most helpful guide ever written to help you become more productive. Written by James Maa from the Class of 2016.', tags: ['Advice']},
+    {url:'http://www.jamesmaa.com/2012/12/02/james-maas-productivity-hacking-guide/', name:'Productivity Hacking Guide',  description:'The most helpful guide ever written to help you become more productive. Written by James Maa from the Class of 2016.', tags: ['Comparative Literature']},
 
-    {url:'http://www.jamesmaa.com/2013/08/26/a-beginners-guide-to-computer-science/', name:'A Beginners Guide to Computer Science', tags: ['Advice']},
+    {url:'http://www.jamesmaa.com/2013/08/26/a-beginners-guide-to-computer-science/', name:'A Beginners Guide to Computer Science', tags: ['Comparative Literature']},
 
     {url:'https://idc.berkeley.edu/mmk/', name:'Manage My Keys',  description:'Set your keys to use AirBears2 or bConnected on your devices.', tags: ['Software']},
 
