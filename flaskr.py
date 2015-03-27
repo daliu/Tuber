@@ -13,7 +13,15 @@ def front_page():
 
 @app.route('/about')
 def about_page():
-		return render_template('about.html')
+	return render_template('about.html')
+
+@app.route('/search')
+def search_page():
+    return render_template('search.html')
+
+@app.route('/sign_up')
+def sign_up():
+    return render_template('sign_up.html')
 
 # configuration
 DATABASE = '/db/flaskr.db'
