@@ -1,0 +1,42 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height:2.5em;
+    color:black;
+}
+
+h1 span{
+    font-style:italic;
+}
+
+.main-container img{
+    width: 140px; 
+    height: 140px;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.main-container img:hover{
+    opacity: 1;
+    transition: .4s, ease;
+}
+
+.main-container{
+    width:800px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table td{
+    padding-left:3.5em;
+    padding-right:3.5em;
+}
+
+tr.row > td{
+    padding-bottom:2em;
+}
